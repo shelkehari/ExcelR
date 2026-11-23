@@ -1,0 +1,77 @@
+# ===========================
+# BACKEND - Java / Spring Boot
+# ===========================
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
+
+# Maven
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/release.properties
+backend/dependency-reduced-pom.xml
+
+# Spring Boot
+backend/HELP.md
+
+# ===========================
+# FRONTEND - Node / React / Vite
+# ===========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ===========================
+# ENVIRONMENT & SECRETS
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-prod.properties
+
+# ===========================
+# IDEs & EDITORS
+# ===========================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# OS FILES
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# MISC
+# ===========================
+*.log
+*.tmp
+*.bak
+*.orig
